@@ -13,6 +13,7 @@
 		18C09BB62563B5A00071BA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C09BB42563B5A00071BA6E /* Main.storyboard */; };
 		18C09BB82563B5A10071BA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C09BB72563B5A10071BA6E /* Assets.xcassets */; };
 		18C09BBB2563B5A10071BA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C09BB92563B5A10071BA6E /* LaunchScreen.storyboard */; };
+		18C09BC32563C20E0071BA6E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C09BC22563C20E0071BA6E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18C09BB72563B5A10071BA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C09BBA2563B5A10071BA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C09BBC2563B5A10071BA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C09BC22563C20E0071BA6E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				18C09BB02563B5A00071BA6E /* SceneDelegate.swift */,
 				18C09BB22563B5A00071BA6E /* ViewController.swift */,
 				18C09BB42563B5A00071BA6E /* Main.storyboard */,
+				18C09BC22563C20E0071BA6E /* CollectionViewCell.swift */,
 				18C09BB72563B5A10071BA6E /* Assets.xcassets */,
 				18C09BB92563B5A10071BA6E /* LaunchScreen.storyboard */,
 				18C09BBC2563B5A10071BA6E /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				18C09BB32563B5A00071BA6E /* ViewController.swift in Sources */,
 				18C09BAF2563B5A00071BA6E /* AppDelegate.swift in Sources */,
+				18C09BC32563C20E0071BA6E /* CollectionViewCell.swift in Sources */,
 				18C09BB12563B5A00071BA6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krify.CollectionviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krify.CollectionviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
